@@ -1,62 +1,62 @@
 {
 	"playlist": [{
-			"artist(s)": ["Bad Bunny", "J Balvin"],
+			"artists": ["Bad Bunny", "J Balvin"],
 			"title": "YO LE LLEGO",
-			"genre(s)": ["Latin trap", "Reggeaton"],
+			"genres": ["Latin trap", "Reggeaton"],
 			"year": "2019"
 		},
 		{
-			"artist(s)": ["J. Cole", "Bas"],
+			"artists": ["J. Cole", "Bas"],
 			"title": "Tribe",
-			"genre(s)": ["Rap"],
+			"genres": ["Rap"],
 			"year": "2018"
 		},
 		{
-			"artist(s)": ["Shawn Mendes", "Zedd"],
+			"artists": ["Shawn Mendes", "Zedd"],
 			"title": "Lost in Japan (Remix)",
-			"genre(s)": ["Electronic", "Pop"],
+			"genres": ["Electronic", "Pop"],
 			"year": "2018"
 		},
 		{
-			"artist(s)": ["Chance the Rapper"],
+			"artists": ["Chance the Rapper"],
 			"title": "Angels",
-			"genre(s)": ["Rap"],
+			"genres": ["Rap"],
 			"year": "2016"
 		},
 		{
-			"artist(s)": ["The Beatles"],
+			"artists": ["The Beatles"],
 			"title": "Strawberry Fields Forever",
-			"genre(s)": ["Rock"],
+			"genres": ["Rock"],
 			"year": "1967"
 		},
 		{
-			"artist(s)": ["Sia", "Diplo", "Labrinth", "LSD"],
+			"artists": ["Sia", "Diplo", "Labrinth", "LSD"],
 			"title": "Thunderclouds",
-			"genre(s)": ["Pop"],
+			"genres": ["Pop"],
 			"year": "2018"
 		},
 		{
-			"artist(s)": ["Sia"],
+			"artists": ["Sia"],
 			"title": "Tribe",
-			"genre(s)": ["Rap"],
+			"genres": ["Rap"],
 			"year": "2018"
 		},
 		{
-			"artist(s)": ["Coldplay"],
+			"artists": ["Coldplay"],
 			"title": "Paradise",
-			"genre(s)": ["Pop"],
+			"genres": ["Pop"],
 			"year": "2011"
 		},
 		{
-			"artist(s)": ["Camilla Cabello", "Young Thug"],
+			"artists": ["Camilla Cabello", "Young Thug"],
 			"title": "Havana",
-			"genre(s)": ["Pop"],
+			"genres": ["Pop"],
 			"year": "2018"
 		},
 		{
-			"artist(s)": ["Bad Bunny", "Casper Magico", "Nio Garcia"],
+			"artists": ["Bad Bunny", "Casper Magico", "Nio Garcia"],
 			"title": "Te Boté",
-			"genre(s)": ["Latin trap", "Reggeaton"],
+			"genres": ["Latin trap", "Reggeaton"],
 			"year": "2017"
 		}
 
