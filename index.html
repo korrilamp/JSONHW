@@ -73,9 +73,19 @@
                         
         var jsonString = JSON.stringify(playlist);
         document.write(jsonString);
-	
-	var jsonStringReadable = JSON.stringify(playlist, null, "<br>-");
-        document.write(jsonStringReadable);
+	       
+	var myInfo = JSON.parse(jsonString, function(key, value){
+            if (key == "artist(s)"){
+                          
+                document.write(key + ": ")
+                document.write(value)
+            }
+	    if (key == "title"){
+                          
+                document.write(key + ": ")
+                document.write(value)
+            }
+        });
         
     </script>
 </body>
