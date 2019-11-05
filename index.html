@@ -9,6 +9,8 @@
 </head>
 <body>
 <script >
+//Part 1: Create JSON representing setlist________________________
+	
  var playlist= [{
 		    "artist(s)": ["Bad Bunny", "J Balvin"],
 		    "title": "YO LE LLEGO",
@@ -70,11 +72,14 @@
 		    "year": "2017"
 	    }
     ]
-                        
+ //Part 2: Serialize and Display JSON setlist____________________     
+ 
         var jsonString = JSON.stringify(playlist);
         document.write(jsonString);
 	document.write("<br>");
-	       
+	
+//Part 3: Display Data in Human Readable Format_______________________  
+	
 	var myInfo = JSON.parse(jsonString, function(key, value){
 	    if (key == "title"){
                 document.write("<br>_______" + value + "_______<br>")
@@ -90,6 +95,7 @@
                 document.write(value + "<br><br>")
             }
         });
+//Part 4: Filter Data via Form_________________________________________ 
         
     </script>
 </body>
