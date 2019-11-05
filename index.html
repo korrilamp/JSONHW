@@ -73,6 +73,9 @@
                         
         var jsonString = JSON.stringify(playlist);
         document.write(jsonString);
+	
+	var jsonStringReadable = JSON.stringify(playlist, null, "<br>-");
+        document.write(jsonStringReadable);
         
     </script>
 </body>
