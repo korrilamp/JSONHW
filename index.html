@@ -73,6 +73,7 @@
                         
         var jsonString = JSON.stringify(playlist);
         document.write(jsonString);
+	document.write("<br>");
 	       
 	var myInfo = JSON.parse(jsonString, function(key, value){
 	    if (key == "title"){
