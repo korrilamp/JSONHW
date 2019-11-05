@@ -11,7 +11,7 @@
    $.getJSON('MyPlaylist.json', function(data) {
        $.each(data.playlist, function(i, f) {
           var tblRow = "<tr>" + "<td>" + f.artists + "</td>" +
-           "<td>" + f.title + "</td>" + "<td>" + f.genres + "</td>" + "<td>" + f.year + "</td>" + "</tr>"
+           "<td>" + f.songtitle + "</td>" + "<td>" + f.genres + "</td>" + "<td>" + f.year + "</td>" + "</tr>"
            $(tblRow).appendTo("#userdata tbody");
      });
 
