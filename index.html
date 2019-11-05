@@ -9,9 +9,9 @@
     var playlist = [];
 
    $.getJSON('MyPlaylist.json', function(data) {
-       $.each(data.person, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-           "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+       $.each(data.playlist, function(i, f) {
+          var tblRow = "<tr>" + "<td>" + f.artists + "</td>" +
+           "<td>" + f.title + "</td>" + "<td>" + f.genres + "</td>" + "<td>" + f.year + "</td>" + "</tr>"
            $(tblRow).appendTo("#userdata tbody");
      });
 
@@ -21,6 +21,21 @@
 </script>
 </head>
 <body>
+<div class="wrapper">
+<div class="profile">
+   <table id= "setlist" border="2">
+  <thead>
+            <th>Artists</th>
+            <th>Title</th>
+            <th>Genres</th>
+            <th>Year</th>
+        </thead>
+      <tbody>
+       </tbody>
+   </table>
+
+</div>
+</div>
 
 </body>
 </html>
