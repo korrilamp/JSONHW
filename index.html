@@ -75,14 +75,13 @@
         document.write(jsonString);
 	       
 	var myInfo = JSON.parse(jsonString, function(key, value){
-            if (key == "artist(s)"){
-                document.write("<br>")      
-                document.write(value)
-            }
 	    if (key == "title"){
-                          
+                document.write("<br>" + value + "<br>")
+            }
+	    if (key == "artist(s)"){
+                document.write("<br>")
                 document.write("<br>" + key + ": ")
-                document.write(value + "<br>")
+                document.write(value)
             }
 	    if (key == "genre(s)"){
                           
